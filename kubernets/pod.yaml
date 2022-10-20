@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: meupode
+spec:
+  containers:
+  - name: webe
+    image: vtresposi/ubuntu-install:latest
+    ports:
+      - containerPort: 80
