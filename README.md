@@ -20,7 +20,9 @@ O objetivo é reproduzir um ambiente completo utilizando Docker, Kubernets, Jenk
 
 -PIPELINE CI
 
-  Foi utilizado um workflow de CI para atualizar a imagem docker do meu dockerhub para atualizações de comandos do ubuntu. 
+  Foi utilizado um workflow de CI para atualizar a imagem docker do meu dockerhub para atualizações de comandos do ubuntu presente em hub.docker.com/repository/docker/vtresposi/ubuntu-install. 
+  
+  
     
     obs - Para o CD, por já ter vencido o free trial do Terraform utilizado, não será possível documentar os arquivos utilizados e nem replicar o estudo deste projeto. 
   
